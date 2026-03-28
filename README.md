@@ -71,5 +71,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0050-powx-n](https://github.com/VinayakRastogi16/LeetCode/tree/master/0050-powx-n) |
 | [2527-find-xor-beauty-of-array](https://github.com/VinayakRastogi16/LeetCode/tree/master/2527-find-xor-beauty-of-array) |
+## Recursion
+|  |
+| ------- |
+| [0050-powx-n](https://github.com/VinayakRastogi16/LeetCode/tree/master/0050-powx-n) |
 <!---LeetCode Topics End-->
