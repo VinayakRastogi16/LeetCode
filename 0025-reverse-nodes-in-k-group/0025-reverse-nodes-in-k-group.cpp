@@ -21,17 +21,6 @@ public:
         return temp;
     }
 
-    ListNode* findKNode(ListNode* temp, int k ){
-        ListNode* kp = temp;
-        for(int i = 0; i<k; i++){
-            kp = kp->next;
-        }
-
-
-
-        return kp;
-    }
-
     ListNode* reverse(ListNode* head){
         ListNode* curr =head;
         ListNode* prev = NULL;
