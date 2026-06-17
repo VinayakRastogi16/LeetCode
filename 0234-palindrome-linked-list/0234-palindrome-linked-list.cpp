@@ -10,36 +10,55 @@
  */
 class Solution {
 public:
+
+    ListNode* reverse(ListNode* head){
+        ListNode* curr = head;
+        ListNode* prev = NULL;
+
+        while(curr){
+            ListNode* next = curr->next;
+            curr->next = prev;
+
+            prev = curr;
+            curr = next;
+        }
+
+        return prev;
+    }
+
+    ListNode* findMid(ListNode* head){
+        ListNode* slow = head;
+        ListNode* fast = head;
+        ListNode* prev = NULL;
+
+        while(fast && fast->next){
+            prev = slow;
+            slow = slow->next;
+            fast = fast->next->next;
+        }
+        if (prev != NULL){
+            prev->next = NULL;
+        }
+
+        return slow;
+    }
+
     bool isPalindrome(ListNode* head) {
-        if (!head || !head->next) return true;
+        
+        ListNode* rightHead = findMid(head);
+        ListNode* rh = reverse(rightHead);
+        ListNode* left = head;
 
-    // 1. Find middle (slow & fast pointer)
-    ListNode* slow = head;
-    ListNode* fast = head;
+        while(left && rh){
+            if(left->val != rh->val){
+                return false;
+            }
+            left = left->next;
+            rh = rh->next;
+        }
 
-    while (fast->next && fast->next->next) {
-        slow = slow->next;
-        fast = fast->next->next;
-    }
-    ListNode* prev = NULL;
-    ListNode* curr = slow->next;
 
-    while (curr!=NULL) {
-        ListNode* nextTemp = curr->next;
-        curr->next = prev;
-        prev = curr;
-        curr = nextTemp;
-    }
-
-    ListNode* first = head;
-    ListNode* second = prev;
-
-    while (second!=NULL) {
-        if (first->val != second->val) return false;
-        first = first->next;
-        second = second->next;
-    }
-
-    return true;
+        return true;
+        
     }
 };
