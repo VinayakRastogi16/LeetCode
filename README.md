@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0493-reverse-pairs](https://github.com/VinayakRastogi16/LeetCode/tree/master/0493-reverse-pairs) |
 | [0643-maximum-average-subarray-i](https://github.com/VinayakRastogi16/LeetCode/tree/master/0643-maximum-average-subarray-i) |
 | [0645-set-mismatch](https://github.com/VinayakRastogi16/LeetCode/tree/master/0645-set-mismatch) |
+| [1480-running-sum-of-1d-array](https://github.com/VinayakRastogi16/LeetCode/tree/master/1480-running-sum-of-1d-array) |
 | [2527-find-xor-beauty-of-array](https://github.com/VinayakRastogi16/LeetCode/tree/master/2527-find-xor-beauty-of-array) |
 ## Two Pointers
 |  |
@@ -218,4 +219,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0643-maximum-average-subarray-i](https://github.com/VinayakRastogi16/LeetCode/tree/master/0643-maximum-average-subarray-i) |
+## Prefix Sum
+|  |
+| ------- |
+| [1480-running-sum-of-1d-array](https://github.com/VinayakRastogi16/LeetCode/tree/master/1480-running-sum-of-1d-array) |
 <!---LeetCode Topics End-->
