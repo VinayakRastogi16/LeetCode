@@ -68,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/VinayakRastogi16/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0268-missing-number](https://github.com/VinayakRastogi16/LeetCode/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/VinayakRastogi16/LeetCode/tree/master/0287-find-the-duplicate-number) |
+| [0367-valid-perfect-square](https://github.com/VinayakRastogi16/LeetCode/tree/master/0367-valid-perfect-square) |
 | [0493-reverse-pairs](https://github.com/VinayakRastogi16/LeetCode/tree/master/0493-reverse-pairs) |
 ## Hash Table
 |  |
@@ -147,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0062-unique-paths](https://github.com/VinayakRastogi16/LeetCode/tree/master/0062-unique-paths) |
 | [0258-add-digits](https://github.com/VinayakRastogi16/LeetCode/tree/master/0258-add-digits) |
 | [0268-missing-number](https://github.com/VinayakRastogi16/LeetCode/tree/master/0268-missing-number) |
+| [0367-valid-perfect-square](https://github.com/VinayakRastogi16/LeetCode/tree/master/0367-valid-perfect-square) |
 | [2235-add-two-integers](https://github.com/VinayakRastogi16/LeetCode/tree/master/2235-add-two-integers) |
 | [2527-find-xor-beauty-of-array](https://github.com/VinayakRastogi16/LeetCode/tree/master/2527-find-xor-beauty-of-array) |
 ## Recursion
