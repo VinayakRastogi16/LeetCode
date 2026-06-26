@@ -1,41 +1,44 @@
 class Solution {
 public:
     Node* copyRandomList(Node* head) {
-        if (!head) return nullptr;
+      //inserting the odes inbetween
+      Node* temp = head;
+      Node* cpyNode;
+      while(temp!=NULL){
+        cpyNode = new Node(temp->val);
+        cpyNode->next = temp->next;
+        temp->next = cpyNode;
+        temp = temp->next->next;
+      }
 
-        // Step 1: Insert copied nodes after original nodes
-        Node* curr = head;
-        while (curr) {
-            Node* copy = new Node(curr->val);
-            copy->next = curr->next;
-            curr->next = copy;
-            curr = copy->next;
+
+      //connect Random ptr
+
+      temp = head;
+      while(temp!=NULL){
+        cpyNode = temp->next;
+        if(temp->random!=NULL) {
+            cpyNode->random = temp->random->next;
+        }else{
+            cpyNode->random = NULL;
         }
 
-        // Step 2: Set random pointers for copied nodes
-        curr = head;
-        while (curr) {
-            if (curr->random) {
-                curr->next->random = curr->random->next;
-            }
-            curr = curr->next->next;
+        temp = temp->next->next;
+      }
+
+      // Connect Next Pointer
+        Node* dNode = new Node(-1);
+        Node* res = dNode;
+        temp = head;
+
+        while(temp!=NULL){
+            res->next = temp->next;
+            res = res->next;
+            temp->next = temp->next->next;
+            temp = temp->next;
         }
 
-        // Step 3: Separate the original and copied lists
-        curr = head;
-        Node* copyHead = head->next;
-        
-        while (curr) {
-            Node* copy = curr->next;
-            curr->next = copy->next;
+        return dNode->next;
 
-            if (copy->next) {
-                copy->next = copy->next->next;
-            }
-
-            curr = curr->next;
-        }
-
-        return copyHead;
     }
 };
