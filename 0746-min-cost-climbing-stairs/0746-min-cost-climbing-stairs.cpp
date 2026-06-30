@@ -25,11 +25,22 @@ public:
         return dp[i] = ans;
     }
 
+
+    int solve(vector<int>& cost, int i){
+        if(i == 0 || i==1) return cost[i];
+
+
+        return cost[i]+ min(solve(cost, i-1), solve(cost, i-2));
+
+    }
+
     int minCostClimbingStairs(vector<int>& cost) {
         int n = cost.size();
 
-        vector<int> dp(n,-1);
-        // return min(solve(cost, n-1, dp), solve(cost, n-2, dp));
+        // return min(solve(cost, n-1), solve(cost, n-2));
+
+        // vector<int> dp(n,-1);
+        // // return min(solve(cost, n-1, dp), solve(cost, n-2, dp));
 
         return tabulation(cost, n);
     }
