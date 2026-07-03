@@ -1,6 +1,34 @@
 class Solution {
 public:
 
+    bool tabulation(vector<int>& nums, int target){
+
+        int n = nums.size();
+
+        vector<vector<bool>> dp(n + 1, vector<bool>(target + 1, false));
+
+        for (int i = 0; i <= n; i++) {
+            dp[i][0] = true;
+        }
+
+        for (int i = n - 1; i >= 0; i--) {
+
+            for (int t = 1; t <= target; t++) {
+
+                bool take = false;
+
+                if (nums[i] <= t)
+                    take = dp[i + 1][t - nums[i]];
+
+                bool notTake = dp[i + 1][t];
+
+                dp[i][t] = take || notTake;
+            }
+        }
+
+        return dp[0][target];
+    }
+
     bool solve(vector<int>& nums, int i, int target, vector<vector<int>>& dp){
 
         if(target == 0)return true;
@@ -36,6 +64,8 @@ public:
 
         vector<vector<int>> dp(nums.size()+1, vector<int>(sum/2+1, -1));
 
-        return solve(nums, 0, sum/2, dp);
+        // return solve(nums, 0, sum/2, dp);
+
+        return tabulation(nums, sum / 2);
     }
 };
