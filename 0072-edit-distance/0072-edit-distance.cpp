@@ -57,7 +57,7 @@ public:
 
         vector<vector<int>> dp(word1.size()+1, vector<int>(word2.size()+1, -1));
 
-        // return solve(0, 0, word1, word2, dp);
-        return tabulation(word1, word2);
+        // return solve(0, 0, word1, word2, dp); ##memoization
+        return tabulation(word1, word2); //Tabulation
     }
 };
