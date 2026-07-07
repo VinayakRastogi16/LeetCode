@@ -1,62 +1,23 @@
-#include <bits/stdc++.h>
-using namespace std;
-
 class Solution {
-private:
-    //Function to solve the problem using space optimization.
-    int func(int m, int n){
-        /* Initialize a vector to represent 
-        the previous row of the grid.*/
-        vector<int> prev(n, 0);
+public:
 
-        // Iterate through the rows of the grid.
-        for (int i = 0; i < m; i++) {
-            /* Create a temporary vector to
-            represent the current row.*/
-            vector<int> temp(n, 0);
+    int solve(int m, int n, int i, int j, vector<vector<int>>& dp){
+        if(i >= m || j >= n)return 0;
 
-            for (int j = 0; j < n; j++) {
-                // Base case
-                if (i == 0 && j == 0) {
-                    temp[j] = 1;
-                    continue;
-                }
+        if(i==m-1 && j==n-1) return dp[i][j] = 1;
 
-            /* Initialize variables to store the number
-            of ways from the cell above (up) and left (left).*/
-            int up = 0;
-            int left = 0;
+        if(dp[i][j]!=-1) return dp[i][j];
 
-            /* If we are not at the first row (i > 0), update
-            'up' with the value from the previous row.*/
-            if (i > 0)
-                up = prev[j];
+        int down = solve(m, n, i+1, j, dp);
+        int right = solve(m, n, i, j+1, dp);
 
-            /* If we are not at the first column (j > 0),
-            update 'left' with the value from current row.*/
-            if (j > 0)
-                left = temp[j - 1];
-
-            /* Calculate the number of ways to reach the
-            current cell by adding 'up' and 'left'.*/
-            temp[j] = up + left;
-        }
-
-        /* Update the previous row with values 
-        calculated for the current row.*/
-        prev = temp;
+        return dp[i][j] = down+right;
     }
 
-    /* The result is stored in the last
-    cell of the previous row (n-1).*/
-    return prev[n - 1];
-}
-public:
-    /*Function to count the total ways
-    to reach (0,0) from (m-1,n-1)*/
     int uniquePaths(int m, int n) {
-        
-        //Return the total count(0 based indexing)
-        return func(m, n);
+
+        vector<vector<int>> dp(m+1, vector<int>(n+1, -1));
+
+        return solve(m, n, 0, 0, dp);
     }
 };
