@@ -4,7 +4,7 @@ public:
     int tabulation(vector<vector<int>>& grid){
         int m = grid.size();
         int n = grid[0].size();
-        vector<vector<int>> dp(m+1, vector<int>(n+1, 0));
+        vector<vector<long long>> dp(m+1, vector<long long>(n+1, 0));
 
         dp[m-1][n-1] = (grid[m-1][n-1]==1)? 0:1;
 
@@ -30,7 +30,7 @@ public:
             }
         }
 
-        return dp[0][0];
+        return (int)dp[0][0];
     }
 
     int solve(vector<vector<int>>& grid, int i, int j, vector<vector<int>>& dp){
