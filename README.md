@@ -120,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0344-reverse-string](https://github.com/VinayakRastogi16/LeetCode/tree/master/0344-reverse-string) |
 | [0709-to-lower-case](https://github.com/VinayakRastogi16/LeetCode/tree/master/0709-to-lower-case) |
 | [1143-longest-common-subsequence](https://github.com/VinayakRastogi16/LeetCode/tree/master/1143-longest-common-subsequence) |
+| [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/VinayakRastogi16/LeetCode/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 ## Sorting
 |  |
 | ------- |
@@ -213,6 +214,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2235-add-two-integers](https://github.com/VinayakRastogi16/LeetCode/tree/master/2235-add-two-integers) |
 | [2527-find-xor-beauty-of-array](https://github.com/VinayakRastogi16/LeetCode/tree/master/2527-find-xor-beauty-of-array) |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/VinayakRastogi16/LeetCode/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
+| [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/VinayakRastogi16/LeetCode/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 ## Recursion
 |  |
 | ------- |
@@ -310,6 +312,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1480-running-sum-of-1d-array](https://github.com/VinayakRastogi16/LeetCode/tree/master/1480-running-sum-of-1d-array) |
+| [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/VinayakRastogi16/LeetCode/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 ## Bucket Sort
 |  |
 | ------- |
