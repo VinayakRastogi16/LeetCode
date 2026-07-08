@@ -1,9 +1,33 @@
 class Solution {
 public:
 
-    int memoization(int i, int target, vector<int>& nums, vector<vector<int>>& dp){
+    int tabulation(vector<int>& nums, int target){
 
-        // if(target == 0) return 1;
+        int n = nums.size();
+
+        vector<vector<int>> dp(n+1, vector<int>(target+1, 0));
+
+        dp[n][0] = 1;
+
+        for(int i = n-1; i>=0; i--){
+            for(int j = 0; j<=target; j++){
+
+                int take = 0;
+
+                if(nums[i] <= j)
+                    take = dp[i+1][j-nums[i]];
+
+                int notTake = dp[i+1][j];
+
+                dp[i][j] = take+notTake;
+            }
+
+        }
+
+        return dp[0][target];
+    }
+
+    int memoization(int i, int target, vector<int>& nums, vector<vector<int>>& dp){
 
         if(i == nums.size()) return (target == 0);
 
@@ -39,8 +63,10 @@ public:
 
         vector<vector<int>> dp(nums.size()+1, vector<int>(reqSum+1, -1));
 
-        return memoization(0, reqSum, nums, dp);
+        // return memoization(0, reqSum, nums, dp);
 
         // return solve(0, 0, target, nums);
+
+        return tabulation(nums, reqSum);
     }
 };
