@@ -184,10 +184,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0144-binary-tree-preorder-traversal](https://github.com/VinayakRastogi16/LeetCode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/VinayakRastogi16/LeetCode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0234-palindrome-linked-list](https://github.com/VinayakRastogi16/LeetCode/tree/master/0234-palindrome-linked-list) |
+| [0901-online-stock-span](https://github.com/VinayakRastogi16/LeetCode/tree/master/0901-online-stock-span) |
 ## Monotonic Stack
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/VinayakRastogi16/LeetCode/tree/master/0042-trapping-rain-water) |
+| [0901-online-stock-span](https://github.com/VinayakRastogi16/LeetCode/tree/master/0901-online-stock-span) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -384,4 +386,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0090-subsets-ii](https://github.com/VinayakRastogi16/LeetCode/tree/master/0090-subsets-ii) |
 | [0494-target-sum](https://github.com/VinayakRastogi16/LeetCode/tree/master/0494-target-sum) |
+## Design
+|  |
+| ------- |
+| [0901-online-stock-span](https://github.com/VinayakRastogi16/LeetCode/tree/master/0901-online-stock-span) |
+## Data Stream
+|  |
+| ------- |
+| [0901-online-stock-span](https://github.com/VinayakRastogi16/LeetCode/tree/master/0901-online-stock-span) |
 <!---LeetCode Topics End-->
