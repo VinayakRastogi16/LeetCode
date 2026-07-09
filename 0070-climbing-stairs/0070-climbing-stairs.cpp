@@ -3,20 +3,15 @@ public:
 
     int tabulation(int n) {
 
-        // 1. Create DP array
         vector<int> dp(n+1, -1);
 
         dp[0] = 1;
         dp[1] = 1;
 
-        // 3. Fill the table
         for (int i = 2; i <= n; i++) {
-
-            // Transition
             dp[i] = dp[i-1]+dp[i-2];
         }
 
-        // 4. Return final answer
         return dp[n];
     }
 
