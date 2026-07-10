@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1480-running-sum-of-1d-array](https://github.com/VinayakRastogi16/LeetCode/tree/master/1480-running-sum-of-1d-array) |
 | [2090-k-radius-subarray-averages](https://github.com/VinayakRastogi16/LeetCode/tree/master/2090-k-radius-subarray-averages) |
 | [2527-find-xor-beauty-of-array](https://github.com/VinayakRastogi16/LeetCode/tree/master/2527-find-xor-beauty-of-array) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/VinayakRastogi16/LeetCode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 ## Two Pointers
 |  |
 | ------- |
@@ -79,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0876-middle-of-the-linked-list](https://github.com/VinayakRastogi16/LeetCode/tree/master/0876-middle-of-the-linked-list) |
 | [0977-squares-of-a-sorted-array](https://github.com/VinayakRastogi16/LeetCode/tree/master/0977-squares-of-a-sorted-array) |
 | [1721-swapping-nodes-in-a-linked-list](https://github.com/VinayakRastogi16/LeetCode/tree/master/1721-swapping-nodes-in-a-linked-list) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/VinayakRastogi16/LeetCode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 ## Binary Search
 |  |
 | ------- |
@@ -92,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/VinayakRastogi16/LeetCode/tree/master/0287-find-the-duplicate-number) |
 | [0367-valid-perfect-square](https://github.com/VinayakRastogi16/LeetCode/tree/master/0367-valid-perfect-square) |
 | [0493-reverse-pairs](https://github.com/VinayakRastogi16/LeetCode/tree/master/0493-reverse-pairs) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/VinayakRastogi16/LeetCode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 ## Hash Table
 |  |
 | ------- |
@@ -138,11 +141,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0645-set-mismatch](https://github.com/VinayakRastogi16/LeetCode/tree/master/0645-set-mismatch) |
 | [0912-sort-an-array](https://github.com/VinayakRastogi16/LeetCode/tree/master/0912-sort-an-array) |
 | [0977-squares-of-a-sorted-array](https://github.com/VinayakRastogi16/LeetCode/tree/master/0977-squares-of-a-sorted-array) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/VinayakRastogi16/LeetCode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 ## Greedy
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/VinayakRastogi16/LeetCode/tree/master/0011-container-with-most-water) |
 | [0455-assign-cookies](https://github.com/VinayakRastogi16/LeetCode/tree/master/0455-assign-cookies) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/VinayakRastogi16/LeetCode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -153,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/VinayakRastogi16/LeetCode/tree/master/0287-find-the-duplicate-number) |
 | [0645-set-mismatch](https://github.com/VinayakRastogi16/LeetCode/tree/master/0645-set-mismatch) |
 | [2527-find-xor-beauty-of-array](https://github.com/VinayakRastogi16/LeetCode/tree/master/2527-find-xor-beauty-of-array) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/VinayakRastogi16/LeetCode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -174,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0518-coin-change-ii](https://github.com/VinayakRastogi16/LeetCode/tree/master/0518-coin-change-ii) |
 | [0746-min-cost-climbing-stairs](https://github.com/VinayakRastogi16/LeetCode/tree/master/0746-min-cost-climbing-stairs) |
 | [1143-longest-common-subsequence](https://github.com/VinayakRastogi16/LeetCode/tree/master/1143-longest-common-subsequence) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/VinayakRastogi16/LeetCode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 ## Stack
 |  |
 | ------- |
@@ -376,6 +383,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1791-find-center-of-star-graph](https://github.com/VinayakRastogi16/LeetCode/tree/master/1791-find-center-of-star-graph) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/VinayakRastogi16/LeetCode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 ## Memoization
 |  |
 | ------- |
