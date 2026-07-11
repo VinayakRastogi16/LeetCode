@@ -1,6 +1,25 @@
 class Solution {
 public:
 
+    bool tabulation(const string& s, vector<string>& w){
+        int n = s.size();
+        vector<bool> dp(n+1, false);
+        dp[n] = true;
+
+        for(int i = n-1; i>=0; i--){
+            for(auto& word : w){
+                if(s.substr(i, word.length()) == word ){
+                    if(dp[i+word.length()]){
+                        dp[i] = true;
+                        break;
+                    }
+                }
+            }
+        }
+
+        return dp[0];
+    }
+
     bool solve(int i, const string& s,  vector<string>& wordDict, vector<int>& dp){
         if(i == s.size()) return true;
 
@@ -19,6 +38,7 @@ public:
 
     bool wordBreak(string s, vector<string>& wordDict) {
         vector<int> dp(s.size(), -1);
-        return solve(0, s, wordDict, dp);
+        // return solve(0, s, wordDict, dp);
+        return tabulation(s, wordDict);
     }
 };
