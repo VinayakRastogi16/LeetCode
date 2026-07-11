@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/VinayakRastogi16/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/VinayakRastogi16/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0136-single-number](https://github.com/VinayakRastogi16/LeetCode/tree/master/0136-single-number) |
+| [0139-word-break](https://github.com/VinayakRastogi16/LeetCode/tree/master/0139-word-break) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/VinayakRastogi16/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/VinayakRastogi16/LeetCode/tree/master/0169-majority-element) |
 | [0198-house-robber](https://github.com/VinayakRastogi16/LeetCode/tree/master/0198-house-robber) |
@@ -105,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0073-set-matrix-zeroes](https://github.com/VinayakRastogi16/LeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0128-longest-consecutive-sequence](https://github.com/VinayakRastogi16/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0138-copy-list-with-random-pointer](https://github.com/VinayakRastogi16/LeetCode/tree/master/0138-copy-list-with-random-pointer) |
+| [0139-word-break](https://github.com/VinayakRastogi16/LeetCode/tree/master/0139-word-break) |
 | [0141-linked-list-cycle](https://github.com/VinayakRastogi16/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/VinayakRastogi16/LeetCode/tree/master/0142-linked-list-cycle-ii) |
 | [0160-intersection-of-two-linked-lists](https://github.com/VinayakRastogi16/LeetCode/tree/master/0160-intersection-of-two-linked-lists) |
@@ -121,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0058-length-of-last-word](https://github.com/VinayakRastogi16/LeetCode/tree/master/0058-length-of-last-word) |
 | [0072-edit-distance](https://github.com/VinayakRastogi16/LeetCode/tree/master/0072-edit-distance) |
 | [0125-valid-palindrome](https://github.com/VinayakRastogi16/LeetCode/tree/master/0125-valid-palindrome) |
+| [0139-word-break](https://github.com/VinayakRastogi16/LeetCode/tree/master/0139-word-break) |
 | [0242-valid-anagram](https://github.com/VinayakRastogi16/LeetCode/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/VinayakRastogi16/LeetCode/tree/master/0344-reverse-string) |
 | [0709-to-lower-case](https://github.com/VinayakRastogi16/LeetCode/tree/master/0709-to-lower-case) |
@@ -173,6 +176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0072-edit-distance](https://github.com/VinayakRastogi16/LeetCode/tree/master/0072-edit-distance) |
 | [0118-pascals-triangle](https://github.com/VinayakRastogi16/LeetCode/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/VinayakRastogi16/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0139-word-break](https://github.com/VinayakRastogi16/LeetCode/tree/master/0139-word-break) |
 | [0198-house-robber](https://github.com/VinayakRastogi16/LeetCode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/VinayakRastogi16/LeetCode/tree/master/0213-house-robber-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/VinayakRastogi16/LeetCode/tree/master/0300-longest-increasing-subsequence) |
@@ -391,6 +395,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/VinayakRastogi16/LeetCode/tree/master/0070-climbing-stairs) |
+| [0139-word-break](https://github.com/VinayakRastogi16/LeetCode/tree/master/0139-word-break) |
 | [0509-fibonacci-number](https://github.com/VinayakRastogi16/LeetCode/tree/master/0509-fibonacci-number) |
 ## Backtracking
 |  |
@@ -405,4 +410,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0901-online-stock-span](https://github.com/VinayakRastogi16/LeetCode/tree/master/0901-online-stock-span) |
+## Trie
+|  |
+| ------- |
+| [0139-word-break](https://github.com/VinayakRastogi16/LeetCode/tree/master/0139-word-break) |
 <!---LeetCode Topics End-->
