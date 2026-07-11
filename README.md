@@ -122,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/VinayakRastogi16/LeetCode/tree/master/0020-valid-parentheses) |
 | [0058-length-of-last-word](https://github.com/VinayakRastogi16/LeetCode/tree/master/0058-length-of-last-word) |
 | [0072-edit-distance](https://github.com/VinayakRastogi16/LeetCode/tree/master/0072-edit-distance) |
+| [0091-decode-ways](https://github.com/VinayakRastogi16/LeetCode/tree/master/0091-decode-ways) |
 | [0125-valid-palindrome](https://github.com/VinayakRastogi16/LeetCode/tree/master/0125-valid-palindrome) |
 | [0139-word-break](https://github.com/VinayakRastogi16/LeetCode/tree/master/0139-word-break) |
 | [0242-valid-anagram](https://github.com/VinayakRastogi16/LeetCode/tree/master/0242-valid-anagram) |
@@ -174,6 +175,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0064-minimum-path-sum](https://github.com/VinayakRastogi16/LeetCode/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/VinayakRastogi16/LeetCode/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/VinayakRastogi16/LeetCode/tree/master/0072-edit-distance) |
+| [0091-decode-ways](https://github.com/VinayakRastogi16/LeetCode/tree/master/0091-decode-ways) |
 | [0118-pascals-triangle](https://github.com/VinayakRastogi16/LeetCode/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/VinayakRastogi16/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0139-word-break](https://github.com/VinayakRastogi16/LeetCode/tree/master/0139-word-break) |
