@@ -427,4 +427,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0139-word-break](https://github.com/VinayakRastogi16/LeetCode/tree/master/0139-word-break) |
+## Enumeration
+|  |
+| ------- |
+| [1291-sequential-digits](https://github.com/VinayakRastogi16/LeetCode/tree/master/1291-sequential-digits) |
 <!---LeetCode Topics End-->
