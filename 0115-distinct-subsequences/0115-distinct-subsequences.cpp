@@ -3,7 +3,7 @@ public:
 
     int solve(int i, int j, const string& s, const string& t, vector<vector<long long>>& dp){
         if(j == t.size()) return 1;
-        if(i == s.size() && j<t.size()) return 0;
+        if(i == s.size()) return 0;
 
         if(dp[i][j] != -1)return dp[i][j];
 
