@@ -1,7 +1,7 @@
 class Solution {
 public:
 
-    int solve(int i, bool canBuy, int fee, vector<int>& p, vector<vector<int>>& dp){
+    int solve(int i, bool canBuy, int fee, const vector<int>& p, vector<vector<int>>& dp){
 
         if(i == p.size()) return 0;
 
@@ -23,10 +23,8 @@ public:
 
     int maxProfit(vector<int>& prices, int fee) {
 
-        bool canBuy = 1;
-
         vector<vector<int>> dp(prices.size(), vector<int>(2, -1));
 
-        return solve(0, canBuy, fee, prices, dp);
+        return solve(0, 1, fee, prices, dp);
     }
 };
