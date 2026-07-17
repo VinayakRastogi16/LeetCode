@@ -58,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1480-running-sum-of-1d-array](https://github.com/VinayakRastogi16/LeetCode/tree/master/1480-running-sum-of-1d-array) |
 | [2090-k-radius-subarray-averages](https://github.com/VinayakRastogi16/LeetCode/tree/master/2090-k-radius-subarray-averages) |
 | [2527-find-xor-beauty-of-array](https://github.com/VinayakRastogi16/LeetCode/tree/master/2527-find-xor-beauty-of-array) |
+| [3312-sorted-gcd-pair-queries](https://github.com/VinayakRastogi16/LeetCode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/VinayakRastogi16/LeetCode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/VinayakRastogi16/LeetCode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/VinayakRastogi16/LeetCode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
@@ -105,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0300-longest-increasing-subsequence](https://github.com/VinayakRastogi16/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 | [0367-valid-perfect-square](https://github.com/VinayakRastogi16/LeetCode/tree/master/0367-valid-perfect-square) |
 | [0493-reverse-pairs](https://github.com/VinayakRastogi16/LeetCode/tree/master/0493-reverse-pairs) |
+| [3312-sorted-gcd-pair-queries](https://github.com/VinayakRastogi16/LeetCode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/VinayakRastogi16/LeetCode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 ## Hash Table
 |  |
@@ -124,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/VinayakRastogi16/LeetCode/tree/master/0268-missing-number) |
 | [0645-set-mismatch](https://github.com/VinayakRastogi16/LeetCode/tree/master/0645-set-mismatch) |
 | [1331-rank-transform-of-an-array](https://github.com/VinayakRastogi16/LeetCode/tree/master/1331-rank-transform-of-an-array) |
+| [3312-sorted-gcd-pair-queries](https://github.com/VinayakRastogi16/LeetCode/tree/master/3312-sorted-gcd-pair-queries) |
 ## String
 |  |
 | ------- |
@@ -253,6 +256,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0509-fibonacci-number](https://github.com/VinayakRastogi16/LeetCode/tree/master/0509-fibonacci-number) |
 | [2235-add-two-integers](https://github.com/VinayakRastogi16/LeetCode/tree/master/2235-add-two-integers) |
 | [2527-find-xor-beauty-of-array](https://github.com/VinayakRastogi16/LeetCode/tree/master/2527-find-xor-beauty-of-array) |
+| [3312-sorted-gcd-pair-queries](https://github.com/VinayakRastogi16/LeetCode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/VinayakRastogi16/LeetCode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/VinayakRastogi16/LeetCode/tree/master/3658-gcd-of-odd-and-even-sums) |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/VinayakRastogi16/LeetCode/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
@@ -319,10 +323,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0169-majority-element](https://github.com/VinayakRastogi16/LeetCode/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/VinayakRastogi16/LeetCode/tree/master/0229-majority-element-ii) |
+| [3312-sorted-gcd-pair-queries](https://github.com/VinayakRastogi16/LeetCode/tree/master/3312-sorted-gcd-pair-queries) |
 ## Combinatorics
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/VinayakRastogi16/LeetCode/tree/master/0062-unique-paths) |
+| [3312-sorted-gcd-pair-queries](https://github.com/VinayakRastogi16/LeetCode/tree/master/3312-sorted-gcd-pair-queries) |
 ## Binary Indexed Tree
 |  |
 | ------- |
@@ -349,6 +355,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0258-add-digits](https://github.com/VinayakRastogi16/LeetCode/tree/master/0258-add-digits) |
+| [3312-sorted-gcd-pair-queries](https://github.com/VinayakRastogi16/LeetCode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/VinayakRastogi16/LeetCode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/VinayakRastogi16/LeetCode/tree/master/3658-gcd-of-odd-and-even-sums) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/VinayakRastogi16/LeetCode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
@@ -362,6 +369,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1480-running-sum-of-1d-array](https://github.com/VinayakRastogi16/LeetCode/tree/master/1480-running-sum-of-1d-array) |
+| [3312-sorted-gcd-pair-queries](https://github.com/VinayakRastogi16/LeetCode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/VinayakRastogi16/LeetCode/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 ## Bucket Sort
 |  |
