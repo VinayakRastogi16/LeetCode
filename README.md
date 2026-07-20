@@ -57,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0912-sort-an-array](https://github.com/VinayakRastogi16/LeetCode/tree/master/0912-sort-an-array) |
 | [0931-minimum-falling-path-sum](https://github.com/VinayakRastogi16/LeetCode/tree/master/0931-minimum-falling-path-sum) |
 | [0977-squares-of-a-sorted-array](https://github.com/VinayakRastogi16/LeetCode/tree/master/0977-squares-of-a-sorted-array) |
+| [1043-partition-array-for-maximum-sum](https://github.com/VinayakRastogi16/LeetCode/tree/master/1043-partition-array-for-maximum-sum) |
 | [1331-rank-transform-of-an-array](https://github.com/VinayakRastogi16/LeetCode/tree/master/1331-rank-transform-of-an-array) |
 | [1480-running-sum-of-1d-array](https://github.com/VinayakRastogi16/LeetCode/tree/master/1480-running-sum-of-1d-array) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/VinayakRastogi16/LeetCode/tree/master/1979-find-greatest-common-divisor-of-array) |
@@ -223,6 +224,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/VinayakRastogi16/LeetCode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0746-min-cost-climbing-stairs](https://github.com/VinayakRastogi16/LeetCode/tree/master/0746-min-cost-climbing-stairs) |
 | [0931-minimum-falling-path-sum](https://github.com/VinayakRastogi16/LeetCode/tree/master/0931-minimum-falling-path-sum) |
+| [1043-partition-array-for-maximum-sum](https://github.com/VinayakRastogi16/LeetCode/tree/master/1043-partition-array-for-maximum-sum) |
 | [1143-longest-common-subsequence](https://github.com/VinayakRastogi16/LeetCode/tree/master/1143-longest-common-subsequence) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/VinayakRastogi16/LeetCode/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/VinayakRastogi16/LeetCode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
