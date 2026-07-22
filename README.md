@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2527-find-xor-beauty-of-array](https://github.com/VinayakRastogi16/LeetCode/tree/master/2527-find-xor-beauty-of-array) |
 | [3312-sorted-gcd-pair-queries](https://github.com/VinayakRastogi16/LeetCode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/VinayakRastogi16/LeetCode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
+| [3501-maximize-active-section-with-trade-ii](https://github.com/VinayakRastogi16/LeetCode/tree/master/3501-maximize-active-section-with-trade-ii) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/VinayakRastogi16/LeetCode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/VinayakRastogi16/LeetCode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Two Pointers
@@ -113,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0367-valid-perfect-square](https://github.com/VinayakRastogi16/LeetCode/tree/master/0367-valid-perfect-square) |
 | [0493-reverse-pairs](https://github.com/VinayakRastogi16/LeetCode/tree/master/0493-reverse-pairs) |
 | [3312-sorted-gcd-pair-queries](https://github.com/VinayakRastogi16/LeetCode/tree/master/3312-sorted-gcd-pair-queries) |
+| [3501-maximize-active-section-with-trade-ii](https://github.com/VinayakRastogi16/LeetCode/tree/master/3501-maximize-active-section-with-trade-ii) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/VinayakRastogi16/LeetCode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 ## Hash Table
 |  |
@@ -154,6 +156,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1143-longest-common-subsequence](https://github.com/VinayakRastogi16/LeetCode/tree/master/1143-longest-common-subsequence) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/VinayakRastogi16/LeetCode/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [3499-maximize-active-section-with-trade-i](https://github.com/VinayakRastogi16/LeetCode/tree/master/3499-maximize-active-section-with-trade-i) |
+| [3501-maximize-active-section-with-trade-ii](https://github.com/VinayakRastogi16/LeetCode/tree/master/3501-maximize-active-section-with-trade-ii) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/VinayakRastogi16/LeetCode/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 ## Sorting
 |  |
@@ -361,6 +364,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0493-reverse-pairs](https://github.com/VinayakRastogi16/LeetCode/tree/master/0493-reverse-pairs) |
+| [3501-maximize-active-section-with-trade-ii](https://github.com/VinayakRastogi16/LeetCode/tree/master/3501-maximize-active-section-with-trade-ii) |
 ## Ordered Set
 |  |
 | ------- |
