@@ -36,8 +36,8 @@ public:
 
     int minScoreTriangulation(vector<int>& values) {
         return tabulation(values);
-        int n = values.size();
-        vector<vector<int>> dp(n, vector<int>(n, -1));
+        // int n = values.size();
+        // vector<vector<int>> dp(n, vector<int>(n, -1));
         // return solve(0, n-1, values, dp);
 
        
