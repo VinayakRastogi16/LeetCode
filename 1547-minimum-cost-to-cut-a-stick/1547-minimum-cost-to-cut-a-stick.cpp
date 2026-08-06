@@ -1,9 +1,28 @@
 class Solution {
 public:
 
+    int tabulation(int n, vector<int>& cuts){
+        
+        cuts.push_back(0);
+        cuts.push_back(n);
+        sort(cuts.begin(), cuts.end());
+        int m = cuts.size();
+        vector<vector<int>> dp(m, vector<int>(m, 0));
+
+        for(int l = 3; l<=m; l++){
+            for(int i = 0; i+l-1<m; i++){
+                int j = i+l-1;
+                dp[i][j] = INT_MAX;
+                for(int k = i+1; k<j; k++)
+                dp[i][j] = min(dp[i][j], dp[i][k]+(cuts[j]-cuts[i])+dp[k][j]);
+            }
+        }
+
+        return dp[0][m-1];
+    }
+
     int solve(int i, int j, int n, vector<int>& cuts, vector<vector<int>>& dp){
         if(j-i ==1)return 0;
-
         if(dp[i][j]!=INT_MAX) return dp[i][j];
 
         int ans = INT_MAX;
@@ -17,11 +36,13 @@ public:
     }
 
     int minCost(int n, vector<int>& cuts) {
-        cuts.push_back(0);
-        cuts.push_back(n);
-        int m = cuts.size();
-        sort(cuts.begin(), cuts.end());
-        vector<vector<int>> dp(m, vector<int>(m, INT_MAX));
-        return solve(0, cuts.size()-1, n, cuts, dp);
+        // cuts.push_back(0);
+        // cuts.push_back(n);
+        // int m = cuts.size();
+        // sort(cuts.begin(), cuts.end());
+        // vector<vector<int>> dp(m, vector<int>(m, INT_MAX));
+        // return solve(0, cuts.size()-1, n, cuts, dp);
+
+        return tabulation(n, cuts);
     }
 };
