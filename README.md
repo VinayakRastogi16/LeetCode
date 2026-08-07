@@ -571,4 +571,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1039-minimum-score-triangulation-of-polygon](https://github.com/VinayakRastogi16/LeetCode/tree/master/1039-minimum-score-triangulation-of-polygon) |
+## Knapsack Problem
+|  |
+| ------- |
+| [0322-coin-change](https://github.com/VinayakRastogi16/LeetCode/tree/master/0322-coin-change) |
+## Complete Knapsack
+|  |
+| ------- |
+| [0322-coin-change](https://github.com/VinayakRastogi16/LeetCode/tree/master/0322-coin-change) |
 <!---LeetCode Topics End-->
