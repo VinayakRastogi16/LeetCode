@@ -182,6 +182,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0709-to-lower-case](https://github.com/VinayakRastogi16/LeetCode/tree/master/0709-to-lower-case) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/VinayakRastogi16/LeetCode/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1143-longest-common-subsequence](https://github.com/VinayakRastogi16/LeetCode/tree/master/1143-longest-common-subsequence) |
+| [1221-split-a-string-in-balanced-strings](https://github.com/VinayakRastogi16/LeetCode/tree/master/1221-split-a-string-in-balanced-strings) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/VinayakRastogi16/LeetCode/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/VinayakRastogi16/LeetCode/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/VinayakRastogi16/LeetCode/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
@@ -228,6 +229,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/VinayakRastogi16/LeetCode/tree/master/0455-assign-cookies) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/VinayakRastogi16/LeetCode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/VinayakRastogi16/LeetCode/tree/master/1081-smallest-subsequence-of-distinct-characters) |
+| [1221-split-a-string-in-balanced-strings](https://github.com/VinayakRastogi16/LeetCode/tree/master/1221-split-a-string-in-balanced-strings) |
 | [2029-stone-game-ix](https://github.com/VinayakRastogi16/LeetCode/tree/master/2029-stone-game-ix) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/VinayakRastogi16/LeetCode/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/VinayakRastogi16/LeetCode/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
@@ -426,6 +428,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0169-majority-element](https://github.com/VinayakRastogi16/LeetCode/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/VinayakRastogi16/LeetCode/tree/master/0229-majority-element-ii) |
+| [1221-split-a-string-in-balanced-strings](https://github.com/VinayakRastogi16/LeetCode/tree/master/1221-split-a-string-in-balanced-strings) |
 | [2029-stone-game-ix](https://github.com/VinayakRastogi16/LeetCode/tree/master/2029-stone-game-ix) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/VinayakRastogi16/LeetCode/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3312-sorted-gcd-pair-queries](https://github.com/VinayakRastogi16/LeetCode/tree/master/3312-sorted-gcd-pair-queries) |
