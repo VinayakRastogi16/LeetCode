@@ -1,15 +1,20 @@
 class Solution {
 public:
     string getSmallestString(int n, int k) {
-        string ans(n, 'a');
+        string ans;
 
-        int remaining = k-n;
+        while(n!=0){
+            int ch = k - (n-1)*26;
 
-        for(int i = n-1;i>=0; i--){
-            int add = min(25, remaining);
-
-            ans[i]+=add;
-            remaining-=add;
+            if(ch<=0){
+                ans.push_back('a');
+                k--;
+                n--;
+            }else{
+                ans.push_back(ch+'a'-1);
+                n--;
+                k-=(ch);
+            }
         }
 
         return ans;
