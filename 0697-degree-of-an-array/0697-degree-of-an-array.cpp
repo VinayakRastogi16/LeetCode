@@ -1,27 +1,24 @@
 class Solution {
 public:
     int findShortestSubArray(vector<int>& nums) {
-        unordered_map<int,int> freq;
-        unordered_map<int,int> first;
-        unordered_map<int,int> last;
-
+        unordered_map<int,vector<int>> mp;
         int deg = 0;
 
         for(int i = 0; i<nums.size(); i++){
-            if(freq.find(nums[i])==freq.end()){
-                first[nums[i]]= i;
+            if(mp.find(nums[i])==mp.end()){
+                mp[nums[i]]= {0, i, i};
             }
-            freq[nums[i]]++;
-            last[nums[i]] = i;
+            mp[nums[i]][0]++;
+            mp[nums[i]][2] = i;
 
-            deg = max(deg, freq[nums[i]]);
+            deg = max(deg, mp[nums[i]][0]);
         }
 
         int ans = INT_MAX;
 
-        for(auto x : freq) {
-            if(x.second == deg) {
-                ans = min(ans, last[x.first] - first[x.first] + 1);
+        for(auto x : mp) {
+            if(x.second[0] == deg) {
+                ans = min(ans, x.second[2] - x.second[1] + 1);
             }
         }
 
