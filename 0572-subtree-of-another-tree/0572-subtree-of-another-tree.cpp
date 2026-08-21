@@ -12,38 +12,36 @@
 class Solution {
 public:
 
-    bool isIdentical(TreeNode* root1, TreeNode* root2){
-    if(root1 == NULL && root2 == NULL) return true;
-    else if(root1 == NULL || root2 == NULL) return false;
+    bool isIdentical(TreeNode* r1, TreeNode* r2){
+        if(r1==NULL&&r2==NULL)return true;
+        if(!r1||!r2) return false;
 
-    if(root1->val!=root2->val){
-        return false;
+        if(r1->val != r2->val){
+            return false;
+        }
 
+        return isIdentical(r1->left, r2->left)&&isIdentical(r1->right, r2->right);
     }
 
-    return isIdentical(root1->left, root2->left)&&isIdentical(root1->right, root2->right);
-
-    }
+    
 
     bool isSubtree(TreeNode* root, TreeNode* subRoot){
 
-    if(root == NULL && subRoot == NULL) return true;
-    else if(root == NULL || subRoot == NULL) return false;
+        if(root==NULL&&subRoot==NULL)return true;
 
+        if(!root||!subRoot) return false; 
 
-    if(root->val == subRoot->val){
-        if(isIdentical(root, subRoot)){
-            return true;
+        if(root->val == subRoot->val){
+            if(isIdentical(root, subRoot))
+                return true;
         }
+
+        int leftSubtree = isSubtree(root->left, subRoot);
+
+        if(!leftSubtree)
+            return isSubtree(root->right, subRoot);
+
+        return true;
+
     }
-
-    int isLeft = isSubtree(root->left, subRoot);
-
-    if(!isLeft)
-        return isSubtree(root->right, subRoot);
-    
-
-    return true;
-
-}
 };
