@@ -10,9 +10,7 @@ public:
             temp /= 10;
         }
         int tot = sum+prod;
-        if(n%tot==0)return true;
-
-        return false;
+        return n%tot==0;
 
     }
 };
