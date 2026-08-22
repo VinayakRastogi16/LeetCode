@@ -1,75 +1,54 @@
 class Solution {
 public:
-    long long gcd(long long a, long long b) {
-        while (b) {
-            long long temp = a % b;
-            a = b;
-            b = temp;
-        }
-        return a;
-    }
 
-    long long lcm(long long a, long long b) {
-        return (a / gcd(a, b)) * b;
-    }
+    typedef long long ll;
 
-    long long count(long long x, vector<int>& coins) {
+    ll countSmaller(ll mid, vector<int>& coins){
+        ll correctedCount = 0;
         int n = coins.size();
-        long long ans = 0;
 
-        // Try every subset of coins
-        for (int mask = 1; mask < (1 << n); mask++) {
+        for(int exp = 1; exp<=(1<<n)-1; exp++){ // 1<<n = 2^n
+            ll lcm = 0;
+            ll order = 0; //even or odd order of expression
 
-            long long L = 1;
-            int bits = 0;
-            bool valid = true;
+            for(int i = 0; i<n; i++){
+                if(exp&(1<<i)){
+                    order++;
 
-            for (int i = 0; i < n; i++) {
-                if (mask & (1 << i)) {
-                    bits++;
-
-                    L = lcm(L, coins[i]);
-
-                    // L > x means there are no multiples <= x
-                    if (L > x) {
-                        valid = false;
-                        break;
+                    if(lcm==0){
+                        lcm = coins[i];
+                    }else{
+                        lcm = lcm*coins[i]/gcd(lcm, coins[i]);
                     }
                 }
             }
 
-            if (!valid) continue;
-
-            long long multiples = x / L;
-
-            // Odd number of elements -> add
-            // Even number of elements -> subtract
-            if (bits % 2 == 1)
-                ans += multiples;
-            else
-                ans -= multiples;
+            if(order%2 == 0){ //eventhen subtract
+                correctedCount -= mid/lcm;
+            }else{
+                correctedCount += mid/lcm;
+            }
         }
 
-        return ans;
+        return correctedCount;
     }
 
     long long findKthSmallest(vector<int>& coins, int k) {
+        ll result = -1;
 
-        long long low = 1;
-        long long high = 1LL * (*min_element(coins.begin(), coins.end())) * k;
+        ll l = 1;
+        ll r = (ll)(*max_element(begin(coins), end(coins)))*k;
 
-        while (low < high) {
-
-            long long mid = low + (high - low) / 2;
-
-            if (count(mid, coins) >= k) {
-                high = mid;
+        while(l<=r){
+            ll mid = l+(r-l)/2;
+            if(countSmaller(mid, coins)>=k){ //left side me kth smallest element
+                result = mid;
+                r = mid-1;
+            }else{
+                l = mid+1;
             }
-            else {
-                low = mid + 1;
-            }
+
         }
-
-        return low;
+        return result;
     }
 };
