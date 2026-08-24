@@ -5,7 +5,7 @@ public:
     int tabulation(vector<int>& prefix){
         vector<int> dp(n, 0);
         dp[n-1] = prefix[n-1];
-        for(int i = n-2; i>=0; i--){
+        for(int i = n-2; i>=1; i--){
             int take = prefix[i] - dp[i+1];
             int skip = dp[i+1];
 
