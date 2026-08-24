@@ -542,6 +542,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0572-subtree-of-another-tree](https://github.com/VinayakRastogi16/LeetCode/tree/master/0572-subtree-of-another-tree) |
 | [0700-search-in-a-binary-search-tree](https://github.com/VinayakRastogi16/LeetCode/tree/master/0700-search-in-a-binary-search-tree) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/VinayakRastogi16/LeetCode/tree/master/0701-insert-into-a-binary-search-tree) |
+| [0965-univalued-binary-tree](https://github.com/VinayakRastogi16/LeetCode/tree/master/0965-univalued-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -552,6 +553,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0144-binary-tree-preorder-traversal](https://github.com/VinayakRastogi16/LeetCode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/VinayakRastogi16/LeetCode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0572-subtree-of-another-tree](https://github.com/VinayakRastogi16/LeetCode/tree/master/0572-subtree-of-another-tree) |
+| [0965-univalued-binary-tree](https://github.com/VinayakRastogi16/LeetCode/tree/master/0965-univalued-binary-tree) |
 | [2685-count-the-number-of-complete-components](https://github.com/VinayakRastogi16/LeetCode/tree/master/2685-count-the-number-of-complete-components) |
 | [3310-remove-methods-from-project](https://github.com/VinayakRastogi16/LeetCode/tree/master/3310-remove-methods-from-project) |
 ## Breadth-First Search
@@ -561,6 +563,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0101-symmetric-tree](https://github.com/VinayakRastogi16/LeetCode/tree/master/0101-symmetric-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/VinayakRastogi16/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0322-coin-change](https://github.com/VinayakRastogi16/LeetCode/tree/master/0322-coin-change) |
+| [0965-univalued-binary-tree](https://github.com/VinayakRastogi16/LeetCode/tree/master/0965-univalued-binary-tree) |
 | [2685-count-the-number-of-complete-components](https://github.com/VinayakRastogi16/LeetCode/tree/master/2685-count-the-number-of-complete-components) |
 | [3310-remove-methods-from-project](https://github.com/VinayakRastogi16/LeetCode/tree/master/3310-remove-methods-from-project) |
 ## Binary Tree
@@ -576,6 +579,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0572-subtree-of-another-tree](https://github.com/VinayakRastogi16/LeetCode/tree/master/0572-subtree-of-another-tree) |
 | [0700-search-in-a-binary-search-tree](https://github.com/VinayakRastogi16/LeetCode/tree/master/0700-search-in-a-binary-search-tree) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/VinayakRastogi16/LeetCode/tree/master/0701-insert-into-a-binary-search-tree) |
+| [0965-univalued-binary-tree](https://github.com/VinayakRastogi16/LeetCode/tree/master/0965-univalued-binary-tree) |
 ## Binary Search Tree
 |  |
 | ------- |
