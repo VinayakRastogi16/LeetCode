@@ -79,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1979-find-greatest-common-divisor-of-array](https://github.com/VinayakRastogi16/LeetCode/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2029-stone-game-ix](https://github.com/VinayakRastogi16/LeetCode/tree/master/2029-stone-game-ix) |
 | [2090-k-radius-subarray-averages](https://github.com/VinayakRastogi16/LeetCode/tree/master/2090-k-radius-subarray-averages) |
+| [2091-removing-minimum-and-maximum-from-array](https://github.com/VinayakRastogi16/LeetCode/tree/master/2091-removing-minimum-and-maximum-from-array) |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/VinayakRastogi16/LeetCode/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [2527-find-xor-beauty-of-array](https://github.com/VinayakRastogi16/LeetCode/tree/master/2527-find-xor-beauty-of-array) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/VinayakRastogi16/LeetCode/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
@@ -251,6 +252,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1903-largest-odd-number-in-string](https://github.com/VinayakRastogi16/LeetCode/tree/master/1903-largest-odd-number-in-string) |
 | [1927-sum-game](https://github.com/VinayakRastogi16/LeetCode/tree/master/1927-sum-game) |
 | [2029-stone-game-ix](https://github.com/VinayakRastogi16/LeetCode/tree/master/2029-stone-game-ix) |
+| [2091-removing-minimum-and-maximum-from-array](https://github.com/VinayakRastogi16/LeetCode/tree/master/2091-removing-minimum-and-maximum-from-array) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/VinayakRastogi16/LeetCode/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/VinayakRastogi16/LeetCode/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/VinayakRastogi16/LeetCode/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
