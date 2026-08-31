@@ -10,35 +10,71 @@
  */
 class Solution {
 public:
-    vector<int> nodesBetweenCriticalPoints(ListNode* head) {
-        vector<int> CP;
-        ListNode* fast = head->next->next;
-        ListNode* slow = head->next;
-        ListNode* prev = head;
+    // vector<int> nodesBetweenCriticalPoints(ListNode* head) {
+    //     vector<int> CP;
+    //     ListNode* fast = head->next->next;
+    //     ListNode* slow = head->next;
+    //     ListNode* prev = head;
         
-        int i = 1;
-        while(fast){
+    //     int i = 1;
+    //     while(fast){
 
-            if((slow->val>prev->val && slow->val>fast->val)||
-            (slow->val<prev->val && slow->val<fast->val))CP.push_back(i);
+    //         if((slow->val>prev->val && slow->val>fast->val)||
+    //         (slow->val<prev->val && slow->val<fast->val))CP.push_back(i);
 
-            i++;
+    //         i++;
 
-            fast = fast->next;
-            prev = slow;
-            slow = slow->next;
-        }
+    //         fast = fast->next;
+    //         prev = slow;
+    //         slow = slow->next;
+    //     }
 
 
-        if(CP.size()<2)return {-1,-1};
+    //     if(CP.size()<2)return {-1,-1};
 
+    //     int minDist = INT_MAX;
+
+    //     for(int j = 1; j<CP.size();j++){
+    //         minDist = min(minDist, CP[j]-CP[j-1]);
+    //     }
+    //     int maxDist = CP.back()-CP.front();
+
+    //     return {minDist, maxDist};
+    // }
+    vector<int> nodesBetweenCriticalPoints(ListNode* head) {
+        ListNode* prev = head;
+        ListNode* curr = head->next;
+
+        int pos = 1;
+
+        int i = -1;
+        int j = -1;
         int minDist = INT_MAX;
 
-        for(int j = 1; j<CP.size();j++){
-            minDist = min(minDist, CP[j]-CP[j-1]);
-        }
-        int maxDist = CP.back()-CP.front();
+        while(curr->next){
+            ListNode* next = curr->next;
 
-        return {minDist, maxDist};
+            if((curr->val>prev->val && curr->val>next->val)||
+            (curr->val<prev->val && curr->val<next->val)){
+                if(i == -1){
+                    i = pos;
+                }else{
+                    minDist = min(minDist, pos-j);
+                }
+
+                j = pos;
+            }
+
+            prev = curr;
+            curr = next;
+            pos++;
+        }
+
+        if(i == j){
+            return {-1, -1};
+        }
+
+        return {minDist, j-i};
     }
+
 };
