@@ -1,106 +1,93 @@
 class Solution {
 public:
+    using VB = vector<bool>;
+    using VVB = vector<VB>;
+    using VVVB = vector<VVB>;
+    using VVVVB = vector<VVVB>;
+    vector<vector<int>> directions = {{0,1}, {0,-1}, {1, 0}, {-1, 0}};
+
+    struct State{
+        int r;
+        int c;
+        int energyLeft;
+        int collectedMask;
+    };
+
     int minMoves(vector<string>& classroom, int energy) {
         int m = classroom.size();
         int n = classroom[0].size();
 
-        int sr = -1, sc = -1;
+        int mE = energy;
 
-        vector<vector<int>> id(m, vector<int>(n, -1));
-        int litterCount = 0;
+        int litterBit[20][20];
+        int litterCnt=0;
+        int sr = 0;
+        int sc= 0;
 
-        for (int r = 0; r < m; r++) {
-            for (int c = 0; c < n; c++) {
-
-                if (classroom[r][c] == 'S') {
+        for(int r = 0; r<m; r++){
+            for(int c = 0; c<n; c++){
+                litterBit[r][c] = -1;
+                if(classroom[r][c] =='S'){
                     sr = r;
                     sc = c;
-                }
-
-                if (classroom[r][c] == 'L') {
-                    id[r][c] = litterCount++;
+                }else if(classroom[r][c] =='L'){
+                    litterBit[r][c] = litterCnt; // 0th position
+                    litterCnt++;
                 }
             }
         }
 
-        int totalMasks = 1 << litterCount;
+        int allCollected = (1<<litterCnt)-1; //(2^litterCnt)-1
+        if(litterCnt == 0) return 0;
 
-        vector<vector<vector<vector<bool>>>> visited(
-            m,
-            vector<vector<vector<bool>>>(
-                n,
-                vector<vector<bool>>(
-                    energy + 1,
-                    vector<bool>(totalMasks, false)
-                )
-            )
-        );
+        VVVVB visited(m, VVVB(n, VVB(mE+1, VB(1<<litterCnt, false))));
 
-        queue<array<int, 4>> q;
-
-        int initialMask = (1 << litterCount) - 1;
-
-        q.push({sr, sc, energy, initialMask});
-        visited[sr][sc][energy][initialMask] = true;
-
-        int dr[] = {-1, 1, 0, 0};
-        int dc[] = {0, 0, -1, 1};
+        queue<State> q;
+        q.push({sr, sc, mE, 0});
+        visited[sr][sc][mE][0] = true;
 
         int moves = 0;
 
-        while (!q.empty()) {
+        while(!q.empty()){
+            int currSize = q.size();
 
-            int sz = q.size();
-
-            while (sz--) {
-
-                auto [r, c, e, mask] = q.front();
+            while(currSize--){
+                State curr = q.front();
                 q.pop();
 
-                if (mask == 0)
+                if(curr.collectedMask == allCollected){
                     return moves;
+                }
+                if(curr.energyLeft == 0){
+                    continue;
+                }
 
-                for (int d = 0; d < 4; d++) {
+                for(auto &dir:directions){
+                    int nR = curr.r + dir[0];
+                    int nC = curr.c + dir[1];
 
-                    int nr = r + dr[d];
-                    int nc = c + dc[d];
-
-                    if (nr < 0 || nr >= m ||
-                        nc < 0 || nc >= n)
+                    if(nR<0||nR>=m||nC<0||nC>=n)
                         continue;
 
-                    if (classroom[nr][nc] == 'X')
-                        continue;
+                    char cell = classroom[nR][nC];
 
-                    if (e == 0)
-                        continue;
+                    if(cell == 'X')continue;
 
-                    int ne = e - 1;
-                    int nmask = mask;
+                    int nextEnergy = curr.energyLeft -1;
+                    int nextMask = curr.collectedMask;
 
-                    if (classroom[nr][nc] == 'R') {
-                        ne = energy;
+                    if(cell == 'R'){
+                        nextEnergy = mE;
+                    }else if(cell == 'L'){
+                        nextMask |= (1<<litterBit[nR][nC]);
                     }
 
-                    if (classroom[nr][nc] == 'L') {
-                        int bit = id[nr][nc];
-                        nmask &= ~(1 << bit);
-                    }
-
-                    if (!visited[nr][nc][ne][nmask]) {
-
-                        visited[nr][nc][ne][nmask] = true;
-
-                        q.push({
-                            nr,
-                            nc,
-                            ne,
-                            nmask
-                        });
+                    if(!visited[nR][nC][nextEnergy][nextMask]){
+                        visited[nR][nC][nextEnergy][nextMask]  = true;
+                        q.push({nR, nC, nextEnergy, nextMask});
                     }
                 }
             }
-
             moves++;
         }
 
