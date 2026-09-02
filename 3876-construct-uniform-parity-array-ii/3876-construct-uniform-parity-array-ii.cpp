@@ -1,21 +1,12 @@
 class Solution {
 public:
     bool uniformArray(vector<int>& nums1) {
-        int mini = INT_MAX;
-        bool hasOdd = false;
-        for(int& n : nums1){
-            if(n%2!=0){
-                hasOdd = true;
-                mini = min(mini, n);
-            }
-        }
+        int minEl = *min_element(begin(nums1), end(nums1));
 
-        if(!hasOdd){
-            return true;
-        }
+        if(minEl%2==1)return true;
 
-        for(int& n: nums1){
-            if(n%2==0&&n<mini){
+        for(int& num: nums1){
+            if(num%2==1){
                 return false;
             }
         }
