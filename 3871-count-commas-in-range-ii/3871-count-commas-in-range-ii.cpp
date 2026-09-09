@@ -3,20 +3,11 @@ class Solution {
 public:
     long long countCommas(long long n) {
         ll result = 0;
-        ll lower = 1000;
-        ll commas = 1;
+        ll start = 1000;
 
-        while(lower<=n){
-            ll upper = lower*1000-1;
-
-            if(upper>n)upper = n;
-
-            ll cntNumber = upper - lower +1;
-
-            result += cntNumber*commas;
-
-            lower *= 1000;
-            commas++;
+        while(start<=n){
+           result += n-start+1;
+           start *=1000;
         }
 
         return result;
