@@ -12,12 +12,12 @@
 class Solution {
 public:
 
-    void postOrder(TreeNode* root, vector<int>& nodes){
+    void inOrder(TreeNode* root, vector<int>& nodes){
         if(!root)return;
 
-        postOrder(root->left, nodes);
+        inOrder(root->left, nodes);
         nodes.push_back(root->val);
-        postOrder(root->right, nodes);
+        inOrder(root->right, nodes);
         
     }
 
@@ -25,7 +25,7 @@ public:
 
         vector<int> nodes;
 
-        postOrder(root, nodes);
+        inOrder(root, nodes);
 
         return nodes[k-1];
     }
