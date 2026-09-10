@@ -580,6 +580,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0938-range-sum-of-bst](https://github.com/VinayakRastogi16/LeetCode/tree/master/0938-range-sum-of-bst) |
 | [0965-univalued-binary-tree](https://github.com/VinayakRastogi16/LeetCode/tree/master/0965-univalued-binary-tree) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/VinayakRastogi16/LeetCode/tree/master/1373-maximum-sum-bst-in-binary-tree) |
+| [2265-count-nodes-equal-to-average-of-subtree](https://github.com/VinayakRastogi16/LeetCode/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -595,6 +596,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0938-range-sum-of-bst](https://github.com/VinayakRastogi16/LeetCode/tree/master/0938-range-sum-of-bst) |
 | [0965-univalued-binary-tree](https://github.com/VinayakRastogi16/LeetCode/tree/master/0965-univalued-binary-tree) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/VinayakRastogi16/LeetCode/tree/master/1373-maximum-sum-bst-in-binary-tree) |
+| [2265-count-nodes-equal-to-average-of-subtree](https://github.com/VinayakRastogi16/LeetCode/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 | [2685-count-the-number-of-complete-components](https://github.com/VinayakRastogi16/LeetCode/tree/master/2685-count-the-number-of-complete-components) |
 | [3310-remove-methods-from-project](https://github.com/VinayakRastogi16/LeetCode/tree/master/3310-remove-methods-from-project) |
 ## Breadth-First Search
@@ -626,6 +628,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0938-range-sum-of-bst](https://github.com/VinayakRastogi16/LeetCode/tree/master/0938-range-sum-of-bst) |
 | [0965-univalued-binary-tree](https://github.com/VinayakRastogi16/LeetCode/tree/master/0965-univalued-binary-tree) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/VinayakRastogi16/LeetCode/tree/master/1373-maximum-sum-bst-in-binary-tree) |
+| [2265-count-nodes-equal-to-average-of-subtree](https://github.com/VinayakRastogi16/LeetCode/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 ## Binary Search Tree
 |  |
 | ------- |
