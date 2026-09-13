@@ -62,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0697-degree-of-an-array](https://github.com/VinayakRastogi16/LeetCode/tree/master/0697-degree-of-an-array) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/VinayakRastogi16/LeetCode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0746-min-cost-climbing-stairs](https://github.com/VinayakRastogi16/LeetCode/tree/master/0746-min-cost-climbing-stairs) |
+| [0835-image-overlap](https://github.com/VinayakRastogi16/LeetCode/tree/master/0835-image-overlap) |
 | [0877-stone-game](https://github.com/VinayakRastogi16/LeetCode/tree/master/0877-stone-game) |
 | [0912-sort-an-array](https://github.com/VinayakRastogi16/LeetCode/tree/master/0912-sort-an-array) |
 | [0931-minimum-falling-path-sum](https://github.com/VinayakRastogi16/LeetCode/tree/master/0931-minimum-falling-path-sum) |
@@ -478,6 +479,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0073-set-matrix-zeroes](https://github.com/VinayakRastogi16/LeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/VinayakRastogi16/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0221-maximal-square](https://github.com/VinayakRastogi16/LeetCode/tree/master/0221-maximal-square) |
+| [0835-image-overlap](https://github.com/VinayakRastogi16/LeetCode/tree/master/0835-image-overlap) |
 | [0931-minimum-falling-path-sum](https://github.com/VinayakRastogi16/LeetCode/tree/master/0931-minimum-falling-path-sum) |
 | [1260-shift-2d-grid](https://github.com/VinayakRastogi16/LeetCode/tree/master/1260-shift-2d-grid) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/VinayakRastogi16/LeetCode/tree/master/3568-minimum-moves-to-clean-the-classroom) |
