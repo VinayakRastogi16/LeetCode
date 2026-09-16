@@ -2,7 +2,7 @@ class Solution {
 public:
 
     int M = 1e9+7; 
-    vector<vector<int>> dp;
+    // vector<vector<int>> dp;
 
     int tabulation(int n, int K){
         vector<vector<int>> t(n+1, vector<int>(n+1));
