@@ -409,6 +409,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0258-add-digits](https://github.com/VinayakRastogi16/LeetCode/tree/master/0258-add-digits) |
 | [0268-missing-number](https://github.com/VinayakRastogi16/LeetCode/tree/master/0268-missing-number) |
 | [0367-valid-perfect-square](https://github.com/VinayakRastogi16/LeetCode/tree/master/0367-valid-perfect-square) |
+| [0390-elimination-game](https://github.com/VinayakRastogi16/LeetCode/tree/master/0390-elimination-game) |
 | [0486-predict-the-winner](https://github.com/VinayakRastogi16/LeetCode/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/VinayakRastogi16/LeetCode/tree/master/0509-fibonacci-number) |
 | [0628-maximum-product-of-three-numbers](https://github.com/VinayakRastogi16/LeetCode/tree/master/0628-maximum-product-of-three-numbers) |
@@ -454,6 +455,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0203-remove-linked-list-elements](https://github.com/VinayakRastogi16/LeetCode/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/VinayakRastogi16/LeetCode/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/VinayakRastogi16/LeetCode/tree/master/0234-palindrome-linked-list) |
+| [0390-elimination-game](https://github.com/VinayakRastogi16/LeetCode/tree/master/0390-elimination-game) |
 | [0486-predict-the-winner](https://github.com/VinayakRastogi16/LeetCode/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/VinayakRastogi16/LeetCode/tree/master/0509-fibonacci-number) |
 | [3483-unique-3-digit-even-numbers](https://github.com/VinayakRastogi16/LeetCode/tree/master/3483-unique-3-digit-even-numbers) |
