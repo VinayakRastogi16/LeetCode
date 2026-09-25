@@ -187,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/VinayakRastogi16/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0645-set-mismatch](https://github.com/VinayakRastogi16/LeetCode/tree/master/0645-set-mismatch) |
 | [0697-degree-of-an-array](https://github.com/VinayakRastogi16/LeetCode/tree/master/0697-degree-of-an-array) |
+| [1096-brace-expansion-ii](https://github.com/VinayakRastogi16/LeetCode/tree/master/1096-brace-expansion-ii) |
 | [1331-rank-transform-of-an-array](https://github.com/VinayakRastogi16/LeetCode/tree/master/1331-rank-transform-of-an-array) |
 | [1386-cinema-seat-allocation](https://github.com/VinayakRastogi16/LeetCode/tree/master/1386-cinema-seat-allocation) |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/VinayakRastogi16/LeetCode/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
@@ -222,6 +223,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0709-to-lower-case](https://github.com/VinayakRastogi16/LeetCode/tree/master/0709-to-lower-case) |
 | [0940-distinct-subsequences-ii](https://github.com/VinayakRastogi16/LeetCode/tree/master/0940-distinct-subsequences-ii) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/VinayakRastogi16/LeetCode/tree/master/1081-smallest-subsequence-of-distinct-characters) |
+| [1096-brace-expansion-ii](https://github.com/VinayakRastogi16/LeetCode/tree/master/1096-brace-expansion-ii) |
 | [1143-longest-common-subsequence](https://github.com/VinayakRastogi16/LeetCode/tree/master/1143-longest-common-subsequence) |
 | [1221-split-a-string-in-balanced-strings](https://github.com/VinayakRastogi16/LeetCode/tree/master/1221-split-a-string-in-balanced-strings) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/VinayakRastogi16/LeetCode/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
@@ -262,6 +264,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0645-set-mismatch](https://github.com/VinayakRastogi16/LeetCode/tree/master/0645-set-mismatch) |
 | [0912-sort-an-array](https://github.com/VinayakRastogi16/LeetCode/tree/master/0912-sort-an-array) |
 | [0977-squares-of-a-sorted-array](https://github.com/VinayakRastogi16/LeetCode/tree/master/0977-squares-of-a-sorted-array) |
+| [1096-brace-expansion-ii](https://github.com/VinayakRastogi16/LeetCode/tree/master/1096-brace-expansion-ii) |
 | [1331-rank-transform-of-an-array](https://github.com/VinayakRastogi16/LeetCode/tree/master/1331-rank-transform-of-an-array) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/VinayakRastogi16/LeetCode/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/VinayakRastogi16/LeetCode/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
@@ -384,6 +387,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0456-132-pattern](https://github.com/VinayakRastogi16/LeetCode/tree/master/0456-132-pattern) |
 | [0901-online-stock-span](https://github.com/VinayakRastogi16/LeetCode/tree/master/0901-online-stock-span) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/VinayakRastogi16/LeetCode/tree/master/1081-smallest-subsequence-of-distinct-characters) |
+| [1096-brace-expansion-ii](https://github.com/VinayakRastogi16/LeetCode/tree/master/1096-brace-expansion-ii) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -660,6 +664,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0104-maximum-depth-of-binary-tree](https://github.com/VinayakRastogi16/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0322-coin-change](https://github.com/VinayakRastogi16/LeetCode/tree/master/0322-coin-change) |
 | [0965-univalued-binary-tree](https://github.com/VinayakRastogi16/LeetCode/tree/master/0965-univalued-binary-tree) |
+| [1096-brace-expansion-ii](https://github.com/VinayakRastogi16/LeetCode/tree/master/1096-brace-expansion-ii) |
 | [2685-count-the-number-of-complete-components](https://github.com/VinayakRastogi16/LeetCode/tree/master/2685-count-the-number-of-complete-components) |
 | [3310-remove-methods-from-project](https://github.com/VinayakRastogi16/LeetCode/tree/master/3310-remove-methods-from-project) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/VinayakRastogi16/LeetCode/tree/master/3568-minimum-moves-to-clean-the-classroom) |
@@ -709,6 +714,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0090-subsets-ii](https://github.com/VinayakRastogi16/LeetCode/tree/master/0090-subsets-ii) |
 | [0494-target-sum](https://github.com/VinayakRastogi16/LeetCode/tree/master/0494-target-sum) |
+| [1096-brace-expansion-ii](https://github.com/VinayakRastogi16/LeetCode/tree/master/1096-brace-expansion-ii) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/VinayakRastogi16/LeetCode/tree/master/3348-smallest-divisible-digit-product-ii) |
 ## Design
 |  |
