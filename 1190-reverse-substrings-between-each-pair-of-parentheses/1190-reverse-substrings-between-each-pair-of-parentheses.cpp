@@ -1,21 +1,18 @@
 class Solution {
 public:
     string reverseParentheses(string s) {
-        int i = 0;
-        int n = s.length();
-        stack<string> st;
+        stack<int> len;
         string curr = "";
 
         for(char c : s){
             if(c == '('){
-                st.push(curr);
-                curr = "";
+                len.push(curr.length());
             }else if(c==')'){
-                reverse(begin(curr), end(curr));
-                curr = st.top()+curr;
-                st.pop();
+                int l = len.top();
+                len.pop();
+                reverse(begin(curr)+l, end(curr));
             }else{
-                curr+=c;
+                curr.push_back(c);
             }
         }
 
