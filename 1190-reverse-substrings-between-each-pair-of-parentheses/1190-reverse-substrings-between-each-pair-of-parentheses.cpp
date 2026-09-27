@@ -1,21 +1,34 @@
 class Solution {
 public:
     string reverseParentheses(string s) {
-        stack<int> len;
-        string curr = "";
+        int n = s.size();
 
-        for(char c : s){
-            if(c == '('){
-                len.push(curr.length());
-            }else if(c==')'){
-                int l = len.top();
-                len.pop();
-                reverse(begin(curr)+l, end(curr));
-            }else{
-                curr.push_back(c);
+        stack<int> OBidx;
+        vector<int> door(n);
+
+        for(int i = 0; i < n; i++){
+            if(s[i]=='('){
+                OBidx.push(i);
+            }else if(s[i]==')'){
+                int j = OBidx.top();
+                OBidx.pop();
+                door[i] = j;
+                door[j] = i;
             }
         }
 
-        return curr;
+        string res;
+        int flag = 1;
+        for(int i = 0; i<n; i+=flag){
+            if(s[i]=='('||s[i]==')'){
+                i = door[i];
+                flag = -flag; //changing the direction
+            }else{
+                res.push_back(s[i]);
+            }
+        }
+
+        return res;
+
     }
 };
