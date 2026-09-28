@@ -1,7 +1,7 @@
 class Solution {
 public:
     int maxDepth(string s) {
-        int ans = INT_MIN;
+        int ans = 0;
         int cnt = 0;
         if(s.length()<2)return 0;
         for(int i = 0; i<s.length(); i++){
@@ -15,6 +15,6 @@ public:
                 continue;
             }
         }
-        return ans==INT_MIN?0:ans;
+        return ans;
     }
 };
