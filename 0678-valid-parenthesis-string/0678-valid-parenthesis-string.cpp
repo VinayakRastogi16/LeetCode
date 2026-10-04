@@ -2,29 +2,34 @@ class Solution {
 public:
     bool checkValidString(string s) {
         int n = s.size();
-        vector<vector<bool>> dp(n + 1, vector<bool>(n + 1, false));
+        stack<int> open;
+        stack<int> ast;
 
-        dp[n][0] = true;
-
-        for (int i = n-1; i >= 0; i--) {
-            for (int op = 0; op <= n; op++) {
-                bool isValid = false;
-
-                if (s[i] == '*') {
-                    isValid |= dp[i + 1][op + 1];
-                    isValid |= dp[i + 1][op];
-                    if (op > 0) {
-                        isValid |= dp[i + 1][op - 1];
-                    }
-                } else if (s[i] == '(') {
-                    isValid |= dp[i + 1][op + 1];
-                } else if (op > 0) {
-                    isValid |= dp[i + 1][op - 1];
+        for(int i = 0; i<n; i++){
+            if(s[i]=='('){
+                open.push(i);
+            }else if(s[i]=='*'){
+                ast.push(i);
+            }else{
+                if(!open.empty()){
+                    open.pop();
+                }else if(!ast.empty()){
+                    ast.pop();
+                }else{
+                    return false;
                 }
-                dp[i][op] = isValid;
             }
         }
 
-        return dp[0][0];
+        while(!open.empty()&&!ast.empty()){
+            if(open.top()>ast.top()){
+                return false;
+            }
+
+            open.pop();
+            ast.pop();
+        }
+
+        return open.empty();
     }
 };
