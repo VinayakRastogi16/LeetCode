@@ -1,32 +1,22 @@
 class Solution {
 public:
+    int scoreOfParentheses(string s) {
+        int ans = 0;
+        int cnt = 0;
 
-    int solve(string &s, int l, int r){
-        if(r-l == 1){
-            return 1;
-        }
-        int balance = 0;
-
-        for(int i = l; i<=r; i++){
+        for(int i = 0;i<s.size(); i++){
             if(s[i]=='('){
-                balance++;
+                cnt++;
             }else{
-                balance--;
-            }
+                cnt--;
 
-            if(balance == 0){
-                if(i==r){
-                    return 2*solve(s, l+1, r-1);
+                if(s[i-1]=='('){
+                    ans+=pow(2, cnt);
                 }
 
-                return solve(s, l, i) + solve(s, i+1, r);
             }
         }
 
-        return 0;
-    }
-
-    int scoreOfParentheses(string s) {
-        return solve(s, 0, s.size()-1);
+        return ans;
     }
 };
