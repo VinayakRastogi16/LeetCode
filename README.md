@@ -222,6 +222,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/VinayakRastogi16/LeetCode/tree/master/0125-valid-palindrome) |
 | [0139-word-break](https://github.com/VinayakRastogi16/LeetCode/tree/master/0139-word-break) |
 | [0242-valid-anagram](https://github.com/VinayakRastogi16/LeetCode/tree/master/0242-valid-anagram) |
+| [0301-remove-invalid-parentheses](https://github.com/VinayakRastogi16/LeetCode/tree/master/0301-remove-invalid-parentheses) |
 | [0316-remove-duplicate-letters](https://github.com/VinayakRastogi16/LeetCode/tree/master/0316-remove-duplicate-letters) |
 | [0344-reverse-string](https://github.com/VinayakRastogi16/LeetCode/tree/master/0344-reverse-string) |
 | [0516-longest-palindromic-subsequence](https://github.com/VinayakRastogi16/LeetCode/tree/master/0516-longest-palindromic-subsequence) |
@@ -688,6 +689,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0100-same-tree](https://github.com/VinayakRastogi16/LeetCode/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/VinayakRastogi16/LeetCode/tree/master/0101-symmetric-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/VinayakRastogi16/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0301-remove-invalid-parentheses](https://github.com/VinayakRastogi16/LeetCode/tree/master/0301-remove-invalid-parentheses) |
 | [0322-coin-change](https://github.com/VinayakRastogi16/LeetCode/tree/master/0322-coin-change) |
 | [0965-univalued-binary-tree](https://github.com/VinayakRastogi16/LeetCode/tree/master/0965-univalued-binary-tree) |
 | [1096-brace-expansion-ii](https://github.com/VinayakRastogi16/LeetCode/tree/master/1096-brace-expansion-ii) |
@@ -740,6 +742,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0022-generate-parentheses](https://github.com/VinayakRastogi16/LeetCode/tree/master/0022-generate-parentheses) |
 | [0090-subsets-ii](https://github.com/VinayakRastogi16/LeetCode/tree/master/0090-subsets-ii) |
+| [0301-remove-invalid-parentheses](https://github.com/VinayakRastogi16/LeetCode/tree/master/0301-remove-invalid-parentheses) |
 | [0494-target-sum](https://github.com/VinayakRastogi16/LeetCode/tree/master/0494-target-sum) |
 | [1096-brace-expansion-ii](https://github.com/VinayakRastogi16/LeetCode/tree/master/1096-brace-expansion-ii) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/VinayakRastogi16/LeetCode/tree/master/3348-smallest-divisible-digit-product-ii) |
