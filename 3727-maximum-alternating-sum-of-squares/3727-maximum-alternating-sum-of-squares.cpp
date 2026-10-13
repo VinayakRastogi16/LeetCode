@@ -2,26 +2,23 @@ class Solution {
 public:
     long long maxAlternatingSum(vector<int>& nums) {
         int n = nums.size();
-        vector<long long> sqre;
 
-        for(int i:nums){
-            sqre.push_back(i*i);
+        for(int i=0; i<n; i++){
+            nums[i] = abs(nums[i]);
         }
 
-        sort(begin(sqre), end(sqre));
+        sort(begin(nums), end(nums));
         int mid = n/2;
         long long ans=0;
 
         for(int i = 0; i<mid; i++){
-            ans-=sqre[i];
+            ans-=nums[i]*nums[i];
         }
 
         for(int i = mid; i<n; i++){
-            ans+=sqre[i];
+            ans+=nums[i]*nums[i];
         }
 
         return ans;
-
-
     }
 };
