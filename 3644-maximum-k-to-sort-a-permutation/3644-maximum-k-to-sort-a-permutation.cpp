@@ -6,6 +6,8 @@ public:
         for(int i = 0; i< n; i++){
             if(i!=nums[i]){
                 ans&=nums[i];
+
+                if(ans==0)return 0;
             }
         }
 
