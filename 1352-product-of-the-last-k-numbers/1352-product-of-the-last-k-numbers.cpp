@@ -4,22 +4,31 @@ public:
     int n;
     ProductOfNumbers() {
         nums.clear();
-        n=0;
+        n = 0;
     }
-    
-    void add(int num) {
-        nums.push_back(num);
-    }
-    
-    int getProduct(int k) {
-        int prod = 1;
-        int n = nums.size();
 
-        for(int i = n-k; i<n; i++){
-            prod *= nums[i];
+    void add(int num) {
+        if (num == 0) {
+            nums = {};
+            n = 0;
+        } else {
+            if (nums.empty()) {
+                nums.push_back(num);
+            } else {
+                nums.push_back(num * nums[n - 1]);
+            }
+            n++;
+        }
+    }
+
+    int getProduct(int k) {
+        if (k > n) {
+            return 0;
+        } else if (k == n) {
+            return nums[n - 1];
         }
 
-        return prod;
+        return nums[n - 1] / nums[n - k - 1];
     }
 };
 
